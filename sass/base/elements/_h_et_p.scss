@@ -1,0 +1,16 @@
+/**
+* Styles pour h1,h2,h3,h4,h5,h6 et p
+*/
+
+h1,h2{
+    font-family: $font__main;
+    color:$color_titre;
+}
+
+h3,h4,h5,h6,p{
+    color : lighten($color_titre, 20%);
+}
+
+h1{
+    font-size: clamp(1.5rem, 5vw, 5rem);  /*permet à une taille de police de caractères de varier sans être minuscule et illisible et sans non plus être énorme.*/
+}
