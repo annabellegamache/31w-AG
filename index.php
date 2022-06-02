@@ -1,3 +1,11 @@
 <?php get_header(); ?>
 <h1>Mon premier modèle Wordpress</h1>
-<?php get_footer();
+<?php
+        if ( have_posts() ) :
+            while ( get_posts()) : the_post()?>
+            <?php the_title();?>
+            <br>
+        <?php endwhile;?>
+    <?php endif;?>
+
+<?php get_footer(); ?>
