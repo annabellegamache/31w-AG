@@ -4,11 +4,11 @@
 
 h1,h2{
     font-family: $font__main;
-    color:$color_titre;
+    color:$color__titre;
 }
 
 h3,h4,h5,h6,p{
-    color : lighten($color_titre, 20%);
+    color : lighten($color__titre, 20%);
 }
 
 h1{
