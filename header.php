@@ -18,9 +18,16 @@
 		<header class="site__header">
 			<section class="site__branding">
 			31W-AG LOGO
+			<h1 class="site-title">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<?php bloginfo( 'name' ); ?>
+				</a>
+			</h1>
+			<h2><?php bloginfo( 'description' ); ?></h2>
 			</section>
 			<nav class="site__navigation">
-			 Menu
+				Menu ici
+		
 			</nav>
 		</header>
 
