@@ -7,10 +7,7 @@
  * @package 31w-AG
  */
 
-if ( ! defined( '_S_VERSION' ) ) {
-	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.0' );
-}
+
 
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -34,10 +31,9 @@ add_action( 'after_setup_theme', 'mon31w_setup' );
 
 
 function mon31w_enqueue() {
-	wp_enqueue_style( 'mon31w-style', /*id de la feuille de style */
-						get_stylesheet_uri(), /*va chercher le chemin complet */
-						array(), 
-						 _S_VERSION );
+	wp_enqueue_style( 'mon31w-style', //id de la feuille de style 
+						get_stylesheet_uri(), //va chercher le chemin complet 
+						array());
 }
 add_action( 'wp_enqueue_scripts', 'mon31w_enqueue' );
 

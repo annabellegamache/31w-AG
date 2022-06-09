@@ -8,7 +8,7 @@ h1,h2{
 }
 
 h3,h4,h5,h6,p{
-    color : lighten($color__titre, 20%);
+    color: $color__titre;
 }
 
 h1{

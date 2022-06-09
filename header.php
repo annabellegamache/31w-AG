@@ -17,7 +17,7 @@
 	<section class="site">
 		<header class="site__header">
 			<section class="site__branding">
-			31W-AG LOGO
+			<a href="<?php echo home_url( '/' ); ?>" class="logo"><img src="<?php echo home_url( '/' ); ?>logoTim150.png" width="150" height="150" alt="Logo"></a>
 			<h1 class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 					<?php bloginfo( 'name' ); ?>
