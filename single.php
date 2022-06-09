@@ -16,3 +16,5 @@
     <?php endif;?>
 
 <?php get_footer(); ?>
+
+--GitHub page aller sur navigateur 
