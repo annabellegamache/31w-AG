@@ -2,7 +2,8 @@
 ## Premier thème et plugin WordPress
 ### Contient 5 commits
 
-[github-page](https://github.com/annabellegamache/31w-AG.git)
+[github-page](https://annabellegamache.github.io/31w-AG/)
+
 > Le thème contient  5 fichiers
     - index.php
     - functions.php
@@ -10,3 +11,4 @@
     - footer.php
     - screenshot.png
     - styles.css
+
