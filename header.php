@@ -17,16 +17,16 @@
 	<section class="site">
 		<header class="site__header">
 			<section class="site__branding">
-			<a href="<?php echo home_url( '/' ); ?>" class="logo"><img src="<?php echo home_url( '/' ); ?>logoTim150.png" width="150" height="150" alt="Logo"></a>
+			
 			<h1 class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<?php bloginfo( 'name' ); ?>
+				<img src="<?php echo get_template_directory_uri(); ?>/logoTim150.png" width="150" height="150" alt="Logo">
 				</a>
 			</h1>
-			<h2><?php bloginfo( 'description' ); ?></h2>
+			<h4><?php bloginfo( 'description' ); ?></h4>
 			</section>
 			<nav class="site__navigation">
-				Menu ici
+				<!--Menu ici -->
 		
 			</nav>
 		</header>

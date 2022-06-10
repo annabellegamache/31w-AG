@@ -7,10 +7,14 @@ h1,h2{
     color: $color__titre;
 }
 
-h3,h4,h5,h6,p{
+h3,h4,h5,h6{
     color: $color__titre;
 }
 
 h1{
     font-size: clamp(1.5rem, 5vw, 5rem);  /*permet à une taille de police de caractères de varier sans être minuscule et illisible et sans non plus être énorme.*/
+}
+
+p{
+    color:#d5e8e3;
 }
