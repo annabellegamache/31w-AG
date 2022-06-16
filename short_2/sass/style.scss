@@ -10,3 +10,13 @@
     cursor: pointer;
 }
 
+.boite__modal{
+    background-color: #666;
+    position:absolute;
+    /*center*/
+    top:25vh;
+    left:25vw;
+    width : 50vw;
+    height: 50vh;
+}
+
