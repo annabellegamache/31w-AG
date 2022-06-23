@@ -10,7 +10,7 @@
     function short2_31w_enqueue(){
       
         $version_css  = filemtime(plugin_dir_path(__FILE__) . 'style.css' );
-        $version_js = filemtime(plugin_dir_path(__FILE__) . 'script/message.js' );
+        $version_js = filemtime(plugin_dir_path(__FILE__) . 'script/message2.js' );
 
         wp_enqueue_style(   'sh2_31w_css', 
                             plugin_dir_url(__FILE__) .'style.css', 
@@ -32,5 +32,4 @@
 
 add_shortcode('adr', 'genere_adresse');
 
-
-
+}
