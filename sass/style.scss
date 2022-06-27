@@ -1,0 +1,162 @@
+/*!
+Theme Name: 31w-AG-exercice1
+Author: Annabelle Gamache
+Author URI: https://github.com/annabellegamache/31w-AG.git
+Description: Thème de base pour le cours 582-31w : Introduction à un gestionnnaire de contenu
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: 31-w
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+// Import variables and mixins.
+@import "abstracts/abstracts";
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+@import "generic/normalize";
+
+/* Box sizing
+--------------------------------------------- */
+@import "generic/box-sizing";
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import "base/base";
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import "layout/sidebar-content";
+
+/*--------------------------------------------------------------
+# Layouts
+--------------------------------------------------------------*/
+// @import "layouts/content-sidebar"; // Uncomment this line for a sidebar on right side of your content.
+// @import "layouts/sidebar-content"; // Uncomment this line for a sidebar on left side of your content.
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+
+/* Jetpack infinite scroll
+--------------------------------------------- */
+
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+
+/* Accessibility
+--------------------------------------------- */
+
+
+/* Alignments
+--------------------------------------------- */
+
+
+/*mon ajout css*/
+
+body{
+	margin:1em;
+	background-color: #fff;
+  }
+  
+  h1.site-title{
+	margin-top:0;
+	margin-bottom:0;
+  }
+  
+  h1.singletitle{
+	text-align: center;
+  }
+  
+  section.site__branding {
+	text-align: center;
+  }
+  
+  h1.front-page{
+	text-align: center;
+  }
+  
+  div.carte-cours-flex{
+	display: flex;
+	color:#999;
+	justify-content:center;
+	justify-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+  }
+  
+  div.carte-cours-flex > div{
+	display: flex;
+	flex-direction:column;
+	justify-content: stretch;
+	align-items: center;
+	width: calc(30% - 20px);
+	border:1px solid #333;
+	border-radius: 10px;
+	padding:10px;
+  }
+
+  div.carte-cours-flex > div > p{
+	flex-grow: 1;
+  }
+  
+
+  
+  div.carte-cours-flex > div > a.bouton{
+	display: inline-block;
+	margin-top:20px;
+	text-decoration: none;
+	text-align: center;
+  }
+
+  .single__main{
+	  padding:2em;
+  }
+
+  footer{
+	  padding:2em;
+	  background-color: #555;
+  }

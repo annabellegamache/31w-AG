@@ -1,0 +1,80 @@
+Setting.json...Sass compiler
+
+{
+    "liveSassCompile.settings.autoprefix": [],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.colorTheme": "Default Dark+",
+    "files.autoSave": "afterDelay",
+    "liveSassCompile.settings.excludeList": [
+
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+
+    "liveSassCompile.settings.formats":[
+        // This is Default.
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/.."
+        }
+
+    ],
+}
+
+
+
+/*mon ajout css*/
+
+body{
+  margin:1em;
+  background-color: #000;
+}
+
+h1.site-title{
+  margin-top:0;
+  margin-bottom:0;
+}
+
+h1.singletitle{
+  text-align: center;
+}
+
+section.site__branding {
+  text-align: center;
+}
+
+h1.front-page{
+  text-align: center;
+}
+
+div.carte-cours-flex{
+  display: flex;
+  justify-content:center;
+  justify-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+div.carte-cours-flex > div{
+  max-width: 30%;
+  border:1px solid #111;
+  border-radius: 10px;
+  padding:10px;
+}
+
+div.carte-cours-flex > div{
+  max-width: 30%;
+}
+
+div.carte-cours-flex > div{
+  max-width: 30%;
+}
+
+div.carte-cours-flex > div > a.bouton{
+  display: inline-block;
+  margin-top:20px;
+  text-decoration: none;
+}
