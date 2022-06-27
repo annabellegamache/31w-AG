@@ -60,6 +60,11 @@ Text Domain: 31-w
 @import "base/base";
 
 /*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import "layout/sidebar-content";
+
+/*--------------------------------------------------------------
 # Layouts
 --------------------------------------------------------------*/
 // @import "layouts/content-sidebar"; // Uncomment this line for a sidebar on right side of your content.
@@ -88,3 +93,70 @@ Text Domain: 31-w
 
 /* Alignments
 --------------------------------------------- */
+
+
+/*mon ajout css*/
+
+body{
+	margin:1em;
+	background-color: #fff;
+  }
+  
+  h1.site-title{
+	margin-top:0;
+	margin-bottom:0;
+  }
+  
+  h1.singletitle{
+	text-align: center;
+  }
+  
+  section.site__branding {
+	text-align: center;
+  }
+  
+  h1.front-page{
+	text-align: center;
+  }
+  
+  div.carte-cours-flex{
+	display: flex;
+	color:#999;
+	justify-content:center;
+	justify-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+  }
+  
+  div.carte-cours-flex > div{
+	display: flex;
+	flex-direction:column;
+	justify-content: stretch;
+	align-items: center;
+	width: calc(30% - 20px);
+	border:1px solid #333;
+	border-radius: 10px;
+	padding:10px;
+  }
+
+  div.carte-cours-flex > div > p{
+	flex-grow: 1;
+  }
+  
+
+  
+  div.carte-cours-flex > div > a.bouton{
+	display: inline-block;
+	margin-top:20px;
+	text-decoration: none;
+	text-align: center;
+  }
+
+  .single__main{
+	  padding:2em;
+  }
+
+  footer{
+	  padding:2em;
+	  background-color: #555;
+  }

@@ -33,7 +33,10 @@ add_action( 'after_setup_theme', 'mon31w_setup' );
 function mon31w_enqueue() {
 	wp_enqueue_style( 'mon31w-style', //id de la feuille de style 
 						get_stylesheet_uri(), //va chercher le chemin complet 
-						array());
+						array(),
+						filemtime(get_template_directory(). './style.css'));
+
+	wp_enqueue_style( 'mon31w-googleFont', 'https://fonts.googleapis.com/css2?family=Roboto&display=swap' , false);
 }
 add_action( 'wp_enqueue_scripts', 'mon31w_enqueue' );
 
