@@ -67,7 +67,7 @@
         /* Écouteur pour sélectionner une nouvelle image */ 
         elmRadio.addEventListener('mousedown', function(){
             index = this.dataset.index
-            affiche_carrousel_img(index)
+            affiche_carrousel_img()
             
         })
     }
@@ -76,8 +76,8 @@
         if (ancien_index != -1){
             elmCarrousel__figure.children[ancien_index].classList.remove('carrousel__figure__img--activer')   
         } 
-        elmCarrousel__figure.children[this.dataset.index].classList.add('carrousel__figure__img--activer')
-        ancien_index = this.dataset.index
+        elmCarrousel__figure.children[index].classList.add('carrousel__figure__img--activer')
+        ancien_index = index
     } 
 
 
