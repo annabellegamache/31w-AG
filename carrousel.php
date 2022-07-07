@@ -1,7 +1,7 @@
 <?php
 
 /**
- *Plugin Name: carrousel
+ *Plugin Name: carrousel2
  *Description: Un deuxième exemple de plugin utilisant carrousel en utilisant des dossiers pour la structure
  *Author: Annabelle Gamache
  *Plugin URI: https://github.com/annabellegamache/31w-AG/tree/exer3/carrousel

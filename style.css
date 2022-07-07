@@ -5,7 +5,7 @@
   height: 100vh;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: #333;
   z-index: 9;
   opacity: 0;
   transform: scale(0);
