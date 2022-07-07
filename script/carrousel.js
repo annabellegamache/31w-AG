@@ -6,7 +6,7 @@
  */
 
 
-(function(){
+ (function(){
     console.log('Début du carrousel')
     let elmGalerie = document.querySelector('.galerie')
     let elmGalerieImg = elmGalerie.querySelectorAll("figure figure img")

@@ -1,14 +1,14 @@
-# Exercice - 1
-## Premier thème et plugin WordPress
-### Contient 5 commits
+# Exercice -3
 
-[github-page](https://annabellegamache.github.io/31w-AG/)
+## Extension Carrousel pour Wordpress
 
-> Le thème contient  5 fichiers
-    - index.php
-    - functions.php
-    - header.php
-    - footer.php
-    - screenshot.png
-    - styles.css
+### Contien 5 commits
 
+> L'extension Carrousel contient 6 fichiers:
+
+1. style.scss
+2. carrousel.js
+3. carrousel.php
+4. style.css
+5. style.css.map
+6. readme.md
