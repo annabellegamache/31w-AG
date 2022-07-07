@@ -21,7 +21,7 @@
     for (const img of elmGalerieImg){
         img.dataset.index = compteur++
         ajouter_elmImg(img)
-        ajouter_elmRadio()
+        ajouter_elmRadio(compteur)
         // écouteur sur la galerie pour ouvrir le carrousel
         img.addEventListener('mousedown', function(){
             elmCarrousel.classList.add('carrousel__ouvrir') 
@@ -57,10 +57,11 @@
  * 
  * */
 
-    function ajouter_elmRadio(){
+    function ajouter_elmRadio(x){
         let elmRadio = document.createElement('input')
         elmRadio.setAttribute('type','radio')
         elmRadio.setAttribute('name','radImg')
+        if (x == 1 ) elmRadio.setAttribute("checked", "checked")
         elmRadio.dataset.index = index
         index = index+1
         elmCarrousel__radio.appendChild(elmRadio)
