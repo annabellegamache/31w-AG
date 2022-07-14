@@ -1,14 +1,10 @@
-# Exercice -3
+# TP1
 
-## Extension Carrousel pour Wordpress
+## Développement d’une extension et amélioration d’un thème
 
-### Contien 5 commits
 
-> L'extension Carrousel contient 6 fichiers:
 
-1. style.scss
-2. carrousel.js
-3. carrousel.php
-4. style.css
-5. style.css.map
-6. readme.md
+> Le travail pratique contient le dossier et le fichier suivant
+
+1. wp-content/
+2. readme.md
