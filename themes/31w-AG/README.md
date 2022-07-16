@@ -4,11 +4,13 @@
 
 [github-page](https://annabellegamache.github.io/31w-AG/)
 
-> Le thème contient  5 fichiers
+> Le thème contient  les fichiers suivant
     - index.php
     - functions.php
     - header.php
     - footer.php
     - screenshot.png
     - styles.css
+    - front-page.php
+    - single.php
 
