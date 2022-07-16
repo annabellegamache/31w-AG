@@ -638,7 +638,8 @@ textarea {
   grid-area: main;
   background-color: #dad6d6;
   padding: 20px;
-  overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
+  overflow: hidden;
+  /* Resolves issue with <pre> elements forcing full width. */
 }
 
 .site__main2 {
@@ -646,7 +647,8 @@ textarea {
   grid-area: unset;
   background-color: #000;
   padding-bottom: 60px;
-  overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
+  overflow: hidden;
+  /* Resolves issue with <pre> elements forcing full width. */
   text-align: center;
 }
 
@@ -791,10 +793,7 @@ div.carte-cours-flex > a::before {
   top: -70px;
   position: absolute;
   background: linear-gradient(#098593, #e02758);
-}
-
-div.carte-cours-flex a:first-child {
-  display: none;
+  animation: animate 60s linear infinite;
 }
 
 @keyframes animate {
