@@ -6,5 +6,12 @@
 
 > Le travail pratique contient le dossier et le fichier suivant
 
-1. wp-content/
-2. readme.md
+#### Dossiers
+    1. plugins
+    2. themes
+    3. uplaods/2022
+
+
+#### Fichiers 
+    1. readme.md
+    2.index.php
