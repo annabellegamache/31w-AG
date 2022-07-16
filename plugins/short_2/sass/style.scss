@@ -1,0 +1,40 @@
+
+.code__adresse {
+    background-color : #bbb;
+    margin-top:20vh;
+}
+
+.code__adresse + button:hover{
+    cursor: pointer;
+}
+
+.boite__modal{
+    position:relative;
+    background-color: #666;
+    position:absolute;
+    /*center*/
+    top:25vh;
+    left:25vw;
+    width : 50vw;
+    height: 50vh;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+
+.boite__modal__ouvrir{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.modalClose{
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    color:#fff;
+    position: absolute;
+    top:5px;
+    right: 5px;
+    text-align: center;
+    vertical-align: middle;
+}

@@ -1,0 +1,3 @@
+
+probleme de push do this!
+git config --global push.default current

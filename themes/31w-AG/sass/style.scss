@@ -1,0 +1,222 @@
+/*!
+Theme Name: 31w-AG-TP1
+Author: Annabelle Gamache
+Author URI: https://github.com/annabellegamache/31w-AG.git
+Description: Thème de base pour le cours 582-31w : Introduction à un gestionnnaire de contenu
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: 31-w
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------*/
+
+
+// Import variables and mixins.
+@import "abstracts/abstracts";
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+@import "generic/normalize";
+
+/* Box sizing
+--------------------------------------------- */
+@import "generic/box-sizing";
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import "base/base";
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import "layout/sidebar-content";
+
+/*--------------------------------------------------------------
+# Composantes
+--------------------------------------------------------------*/
+@import "composantes/nav_sidebar";
+
+/*mon ajout css*/
+
+body{
+	margin:0;
+	background-color: #fff;
+  }
+  
+  h1.site-title{
+	margin-top:0;
+	margin-bottom:0;
+	color:#fff;
+	background-color: rgba(0,0,0,0.5);
+  }
+  
+  h1.singletitle{
+	text-align: center;
+  }
+  
+  section.site__branding {
+	background-image: url('../31w-AG/pexels.jpg');
+	background-size: cover;
+	background-position: right center;
+	min-height: 300px;
+	color:#fff;
+	padding:20px;
+  }
+
+  section.site__branding h4{
+	color:#fff;
+	text-align: right;
+  }
+  
+  h1.front-page{
+	text-align: center;
+	text-transform: uppercase;
+	color:#fff;
+  }
+  
+  div.carte-cours-flex{
+	display: flex;
+	color:#999;
+	padding:60px 0;
+	justify-content:center;
+	justify-items: center;
+	flex-wrap: wrap;
+	gap: 15px;
+  }
+  
+  div.carte-cours-flex > a{
+	display: flex;
+	text-align: left;
+	flex-direction:column;
+	justify-content: stretch;
+	align-items: center;
+	width: calc(30% - 20px);
+	padding:20px;
+	text-decoration: none;
+	opacity: 1;
+	transition: all 0.3s ease;
+	place-items: center;
+	position: relative;
+	border-radius: 6px;
+	overflow: hidden;
+  }
+
+ 
+
+
+  div.carte-cours-flex > a::before {
+	content: "";
+	width: 100%;
+	height: 350px;
+	left: 10px;
+	top: -70px;
+	position: absolute;
+	background: linear-gradient(#098593, #e02758);
+	//animation: animate 60s linear infinite;
+  }
+
+  
+
+  @keyframes animate {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+
+  div.carte-cours-flex > a::after {
+	content: "";
+	position: absolute;
+	background-color:#0f1111;
+	inset: 1px;
+	border-radius: 6px;
+  }
+
+  div.carte-cours-flex > a:hover{
+	opacity: 0.7;
+  }
+
+
+  div.carte-cours-flex > a div{
+	z-index: 1;
+	
+  }
+
+  div.carte-cours-flex > a h4{
+	margin:0;
+	padding:0;
+	font-size: 1.2em;
+	color:#63606e;
+	
+  }
+
+  div.carte-cours-flex > a:hover h4{
+	color:#098593
+	
+  }
+
+  div.carte-cours-flex > a h2{
+	margin:0;
+	padding:0;
+	font-size: 1.5em;
+	color:#c3bed4;
+	transition: all 0.3s ease;
+
+  }
+
+  div.carte-cours-flex > a:hover h2{
+	color:#fff;
+	
+  }
+
+  div.carte-cours-flex > a p{
+	display: -webkit-box;
+  	overflow: hidden;
+  	-webkit-line-clamp: 3;
+  	-webkit-box-orient: vertical;
+	color:#f7f7f7;
+  }
+
+  
+  div.carte-cours-flex a small{
+	color:#098593;
+	text-align: right;
+  }
+
+  .single__main{
+	  padding:2em;
+  }
+
+  footer{
+	  padding:2em;
+	  background-color: #555;
+  }
+
+
+ 
+
+  @media screen and (max-width: 1200px) {
+	div.carte-cours-flex > a{
+		width: calc(50% - 20px);
+	
+  }
+}
+
+  @media screen and (max-width: 500px) {
+	div.carte-cours-flex > a{
+		width: calc(100% - 20px);
+	
+  }
+}
